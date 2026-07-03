@@ -10,5 +10,6 @@ Column      | Type     | Example            | Description
 `opcode`    | `char`   | `1`                | Either of 'R' or 'W', 0 is write, 1 is read
 
 The cache management policy is designed and implemented using a list-based approach.
+
 The design of the flash memory backend is based on the TSU architecture implemented in MQSim.
 
