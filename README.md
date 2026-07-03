@@ -8,6 +8,7 @@ Column      | Type     | Example            | Description
 `offset`    | `uint64` | `126703644672`     | Offset of this operation, in bytes
 `length`    | `uint32` | `8`             | Length of this operation, in *8 bytes
 `opcode`    | `char`   | `1`                | Either of 'R' or 'W', 0 is write, 1 is read
+
 The cache management policy is designed and implemented using a list-based approach.
 The design of the flash memory backend is based on the TSU architecture implemented in MQSim.
 
